@@ -30,6 +30,7 @@ function App() {
       randomColor={randomColor}
       getRandomAll={getRandomAll}
       />
+
     </div>
   )
 }

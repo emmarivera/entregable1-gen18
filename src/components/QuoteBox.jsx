@@ -2,8 +2,6 @@ import React from 'react'
 
 const QuoteBox = ({randomQuote, randomColor, getRandomAll}) => {
 
-    console.log(getRandomAll);
-
     const colorObj = {
         color: randomColor
     }
@@ -22,6 +20,7 @@ const QuoteBox = ({randomQuote, randomColor, getRandomAll}) => {
         style={backgroundObj}
         onClick={getRandomAll}
         >&#62;</button>
+        
     </article>
   )
 }
